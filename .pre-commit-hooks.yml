@@ -1,0 +1,9 @@
+---
+- id: terraform-fmt
+  name: terraform-fmt
+  entry: terraform-fmt
+  description: Rewrite Terraform configuration files to a canonical format and style, cross platform compatible
+  language: python
+  files: (\.tf|\.tfvars)$
+  exclude: \.terraform\/.*$
+
